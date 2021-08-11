@@ -1,2 +1,2 @@
-# apps-view
+# AppsView
 A beautiful fullscreen application launcher
