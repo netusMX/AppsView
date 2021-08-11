@@ -1,2 +1,2 @@
 # apps-view
-A beautiful application launcher for elementary OS
+A beautiful fullscreen application launcher
