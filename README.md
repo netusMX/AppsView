@@ -1,5 +1,14 @@
 # AppsView
-A beautiful fullscreen application launcher
+A beautiful fullscreen application launcher for elementary OS
+
+Using elementary applications-menu codebase
+
+<p align="center">
+<img width="250" src="data/icons/com.github.netusMX.AppsView.svg" alt="Logo">
+<br>
+<img width="400" src="screenshots/small.png" alt="Laptop">
+<img width="400" src="screenshots/big.png" alt="Desktop">
+</p>
 
 # Install it from source
 
@@ -38,7 +47,7 @@ Ensure you have these dependencies installed
 # install elementary-sdk, meson and ninja
 sudo apt install elementary-sdk meson ninja
 # clone repository
-git clone {{repository_url}} AppsView
+git clone https://github.com/netusMX/AppsView AppsView
 # cd to dir
 cd AppsView
 # run meson
