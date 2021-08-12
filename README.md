@@ -30,9 +30,6 @@ Ensure you have these dependencies installed
 * libjson-glib-dev
 * libplank-dev
 * libsoup2.4-dev
-* libswitchboard-2.0-dev
-* libunity-dev
-* libwingpanel-dev
 * libzeitgeist-2.0-dev
 * libwebkit2gtk-4.0-dev
 * liblightdm-gobject-1-dev
