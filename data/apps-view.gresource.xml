@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/com/github/netusMX/appsView">
+    <file alias="application.css" compressed="true">application.css</file>
+    <file alias="PageChecker.css" compressed="true">PageChecker.css</file>
+  </gresource>
+</gresources>

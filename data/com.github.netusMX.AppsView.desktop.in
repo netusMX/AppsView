@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=AppsView
+Comment=Fullscreen Apps Launcher
+GenericName=AppsView
+Exec=com.github.netusMX.AppsView %U
+Icon=com.github.netusMX.AppsView
+Terminal=false
+Categories=Utility;GTK;
+Keywords=Develop

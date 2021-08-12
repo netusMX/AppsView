@@ -1,0 +1,58 @@
+# Listing files to compile
+sources = files (
+    'Application.vala',
+    'AppsViewWindow.vala',
+    'AppsView.vala',
+
+    'Backend/AppSystem.vala',
+    'Backend/App.vala',
+
+    'Backend/SynapseSearch.vala',
+    'Backend/AppCenter.vala',
+
+    'Views/GridView.vala',
+    'Views/SearchView.vala',
+
+    'Widgets/AppButton.vala',
+    'Widgets/AppContextMenu.vala',
+    'Widgets/AppListBox.vala',
+    'Widgets/Switcher.vala',
+    'Widgets/SearchItem.vala',
+    'Widgets/PageChecker.vala',
+    'Widgets/BackgroundImage.vala',
+    'Widgets/BlurBackground.vala',
+
+    'synapse-core/Actions/TerminalRunnerAction.vala',
+    'synapse-core/Actions/RunnerAction.vala',
+    'synapse-core/Actions/CommonAction.vala',
+    'synapse-core/Actions/ClipboardCopyAction.vala',
+    'synapse-core/Actions/BaseAction.vala',
+    'synapse-core/Interfaces/ItemProvider.vala',
+    'synapse-core/Interfaces/Configurable.vala',
+    'synapse-core/Interfaces/Activatable.vala',
+    'synapse-core/Interfaces/ActionProvider.vala',
+    'synapse-core/Matches/UriMatch.vala',
+    'synapse-core/Matches/TextMatch.vala',
+    'synapse-core/Matches/SearchMatch.vala',
+    'synapse-core/Matches/Match.vala',
+    'synapse-core/Matches/DefaultMatch.vala',
+    'synapse-core/Matches/ApplicationMatch.vala',
+    'synapse-core/config-service.vala',
+    'synapse-core/data-sink.vala',
+    'synapse-core/dbus-service.vala',
+    'synapse-core/desktop-file-service.vala',
+    'synapse-core/query.vala',
+    'synapse-core/relevancy-service.vala',
+    'synapse-core/result-set.vala',
+    'synapse-core/utils.vala',
+
+    'synapse-plugins/worker-link.vala',
+    'synapse-plugins/calculator-plugin.vala',
+    'synapse-plugins/command-plugin.vala',
+    'synapse-plugins/desktop-file-plugin.vala',
+    'synapse-plugins/switchboard-plugin.vala',
+    'synapse-plugins/system-management.vala',
+    'synapse-plugins/link-plugin.vala',
+    'synapse-plugins/appcenter-plugin.vala',
+
+)

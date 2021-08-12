@@ -1,0 +1,17 @@
+.apps-view-main-window {
+    background: alpha(#000, 0.85);
+}
+
+.apps-view-event-box {
+    background: alpha(#000, 0.3);
+}
+
+.apps-view-search-entry {
+    background: alpha(#ccc, 0.8);
+    border-radius: 10px;
+}
+
+.item {
+    color: white;
+    font-size: .95em;
+}
