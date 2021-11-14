@@ -7,11 +7,14 @@ Using elementary applications-menu codebase
 <img width="250" src="data/icons/com.github.netusMX.AppsView.svg" alt="Logo">
 <br>
 Updated with blur:
-<img width="400" src="screenshots/small.png" alt="Laptop">
-<img width="400" src="screenshots/big.png" alt="Desktop">
-Previous version:
+<br>
 <img width="400" src="screenshots/1.png" alt="Geat View">
 <img width="400" src="screenshots/2.png" alt="Blur">
+<br>
+Previous version:
+<br>
+<img width="400" src="screenshots/small.png" alt="Laptop">
+<img width="400" src="screenshots/big.png" alt="Desktop">
 </p>
 
 # Install it from source
