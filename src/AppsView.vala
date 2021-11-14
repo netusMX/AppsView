@@ -28,7 +28,7 @@ public class AppsView.AppsView : Gtk.Grid {
     private Modality modality;
     private Views.Grid grid_view;
     private Views.SearchView search_view;
-    private Widgets.BackgroundImage backgroundImage;
+    private Widgets.BlurBackground backgroundImage;
 
      static construct {
         resource_provider = new Gtk.CssProvider ();
@@ -97,26 +97,19 @@ public class AppsView.AppsView : Gtk.Grid {
         event_box_style_context.add_provider (resource_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         var overlay = new Gtk.Overlay();
-        var overlayBackground = new Gtk.Overlay();
         var lightdm_user_list = LightDM.UserList.get_instance ();
         var user_name = GLib.Environment.get_user_name();
         if (lightdm_user_list.length > 0) {
             lightdm_user_list.users.foreach ((user) => {
                 if (user_name == user.name) {
-                    backgroundImage = new Widgets.BackgroundImage(user.background);
+                    backgroundImage = new Widgets.BlurBackground(user.background);
                 }
             });
         } else {
-            backgroundImage = new Widgets.BackgroundImage(null);
+            backgroundImage = new Widgets.BlurBackground(null);
         }
 
-        var granite_drawing = new Granite.Drawing.BufferSurface(1366, 768);
-        granite_drawing.exponential_blur(20);
-        print("%d",granite_drawing.height);
-        var blurBackground = new Widgets.BlurBackground(granite_drawing.load_to_pixbuf());
-        overlayBackground.add(backgroundImage);
-        overlayBackground.add_overlay(blurBackground);
-        overlay.add(overlayBackground);
+        overlay.add(backgroundImage);
         overlay.add_overlay(event_box);
 
         // Add the container to the dialog's content area

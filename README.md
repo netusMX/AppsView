@@ -6,8 +6,12 @@ Using elementary applications-menu codebase
 <p align="center">
 <img width="250" src="data/icons/com.github.netusMX.AppsView.svg" alt="Logo">
 <br>
+Updated with blur:
 <img width="400" src="screenshots/small.png" alt="Laptop">
 <img width="400" src="screenshots/big.png" alt="Desktop">
+Previous version:
+<img width="400" src="screenshots/1.png" alt="Geat View">
+<img width="400" src="screenshots/2.png" alt="Blur">
 </p>
 
 # Install it from source
@@ -42,7 +46,7 @@ Ensure you have these dependencies installed
 
 ```bash
 # install elementary-sdk, meson and ninja
-sudo apt install elementary-sdk meson ninja
+sudo apt install elementary-sdk
 # clone repository
 git clone https://github.com/netusMX/AppsView AppsView
 # cd to dir
